@@ -1,0 +1,1 @@
+package com.clean.sample.domain;
