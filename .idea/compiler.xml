@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cleanarchitecture" />
         <module name="domain" />
+        <module name="in-memory-simple" />
         <module name="usecase" />
       </profile>
     </annotationProcessing>

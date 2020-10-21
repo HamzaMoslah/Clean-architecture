@@ -11,6 +11,7 @@
     <modules>
         <module>domain</module>
         <module>usecase</module>
+        <module>adapter/repository/in-memory-simple</module>
     </modules>
 
 

@@ -6,10 +6,12 @@
         <artifactId>clean-architecture</artifactId>
         <groupId>com.sample</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>domain</artifactId>
+    <groupId>com.sample.adapter.repository</groupId>
+    <artifactId>in-memory-simple</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -22,6 +24,20 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>com.sample</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sample</groupId>
+            <artifactId>usecase</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

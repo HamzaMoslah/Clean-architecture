@@ -13,7 +13,7 @@ public final class FindUser {
         this.repository = repository;
     }
 
-    public Optional<User> findById(final String id) {
+    public Optional<User> findById(final Long id) {
         return repository.findById(id);
     }
 
