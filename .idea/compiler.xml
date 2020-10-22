@@ -9,6 +9,7 @@
         <module name="cleanarchitecture" />
         <module name="domain" />
         <module name="in-memory-simple" />
+        <module name="sha256" />
         <module name="spring-controller" />
         <module name="usecase" />
         <module name="uuid" />

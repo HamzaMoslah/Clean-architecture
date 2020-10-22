@@ -14,6 +14,7 @@
         <module>adapter/repository/in-memory-simple</module>
         <module>adapter/id-generator/uuid</module>
         <module>adapter/controller/spring-controller</module>
+        <module>adapter/encoder/sha256</module>
     </modules>
 
 
