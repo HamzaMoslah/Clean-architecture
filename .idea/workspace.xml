@@ -8,6 +8,7 @@
     <ignored path="$PROJECT_DIR$/usecase/target/" />
     <ignored path="$PROJECT_DIR$/adapter/repository/target/" />
     <ignored path="$PROJECT_DIR$/adapter/repository/in-memory-simple/target/" />
+    <ignored path="$PROJECT_DIR$/adapter/id-generator/uuid/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="77" column="90" selection-start-line="77" selection-start-column="90" selection-end-line="77" selection-end-column="90" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#1798#1799#0" expanded="true" />
                 <element signature="e#1838#1839#0" expanded="true" />
@@ -48,70 +49,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usecase/src/main/java/module-info.java">
+        <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/com/clean/sample/db/InMemoryUserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="117">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/FindUser.java">
+        <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/com/clean/sample/uuid/UuidGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/pom.xml">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/IdGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/CreateUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/LoginUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -123,8 +112,8 @@
       <list>
         <option value="Interface" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,7 +121,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="usecase" />
       </map>
     </option>
   </component>
@@ -140,8 +129,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/IdGenerator.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/entity/User.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/PasswordEncoder.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/UserRepository.java" />
         <option value="$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/validator/UserValidator.java" />
@@ -155,6 +142,11 @@
         <option value="$PROJECT_DIR$/usecase/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/FindUser.java" />
         <option value="$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/com/clean/sample/db/InMemoryUserRepository.java" />
+        <option value="$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/com/clean/sample/uuid/UuidGenerator.java" />
+        <option value="$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/IdGenerator.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/entity/User.java" />
       </list>
     </option>
   </component>
@@ -195,6 +187,57 @@
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,15 +277,6 @@
             <path>
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="in-memory-simple" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +299,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="port" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,8 +338,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603298985016" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adapter/repository/in-memory-simple" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603362069730" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adapter/id-generator/uuid" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -285,6 +348,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.clean.sample.domain" />
       <recent name="com.clean.sample.usecase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\adapter\id-generator\uuid\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,12 +376,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603123492772</updated>
       <workItem from="1603123496846" duration="30000" />
-      <workItem from="1603123723883" duration="10692000" />
+      <workItem from="1603123723883" duration="12857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10722000" />
+    <option name="totallyTimeSpent" value="12887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -428,46 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/IdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/PasswordEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="90" selection-start-line="77" selection-start-column="90" selection-end-line="77" selection-end-column="90" />
-          <folding>
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,6 +545,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usecase/src/main/java/com/clean/sample/usecase/FindUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -531,17 +575,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/pom.xml">
+    <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/com/clean/sample/db/InMemoryUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="117">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/repository/in-memory-simple/src/main/java/module-info.java">
+    <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/id-generator/uuid/src/main/java/com/clean/sample/uuid/UuidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/port/IdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/clean/sample/domain/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

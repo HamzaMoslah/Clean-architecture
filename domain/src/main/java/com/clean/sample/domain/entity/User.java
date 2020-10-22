@@ -6,7 +6,7 @@ public class User {
     private String firstName;
     private String lastName;
     private Integer age;
-    private Long id;
+    private String id;
     private String phone;
     private String email;
 
@@ -16,11 +16,11 @@ public class User {
         private String firstName;
         private String lastName;
         private Integer age;
-        private Long id;
+        private String id;
         private String phone;
         private String email;
 
-        public UserBuilder(String username, String password, String firstName, String lastName, Integer age, Long id, String phone, String email) {
+        public UserBuilder(String username, String password, String firstName, String lastName, Integer age, String id, String phone, String email) {
             this.username = username;
             this.password = password;
             this.firstName = firstName;
@@ -59,7 +59,7 @@ public class User {
             return this;
         }
 
-        public UserBuilder setId(Long id) {
+        public UserBuilder setId(String id) {
             this.id = id;
             return this;
         }
@@ -79,11 +79,11 @@ public class User {
         }
     }
 
-    public User(Long id) {
+    public User(String id) {
         this.id = id;
     }
 
-    public User(Long id, String username, String password, String firstName, String lastName, String phone, Integer age, String email) {
+    public User(String id, String username, String password, String firstName, String lastName, String phone, Integer age, String email) {
         this.id = id;
         this.email = email;
         this.username = username;
@@ -148,11 +148,11 @@ public class User {
         return this;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public User setId(Long id) {
+    public User setId(String id) {
         this.id = id;
         return this;
     }

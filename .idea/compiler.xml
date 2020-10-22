@@ -10,6 +10,7 @@
         <module name="domain" />
         <module name="in-memory-simple" />
         <module name="usecase" />
+        <module name="uuid" />
       </profile>
     </annotationProcessing>
   </component>
