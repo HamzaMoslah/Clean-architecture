@@ -1,4 +1,4 @@
-package com.clean.sample.db;
+package com.clean.sample.inmem;
 
 import com.clean.sample.domain.entity.User;
 import com.clean.sample.domain.port.UserRepository;
@@ -20,7 +20,7 @@ public class InMemoryUserRepository implements UserRepository {
     }
 
     @Override
-    public Optional<User> findById(final Long id) {
+    public Optional<User> findById(final String id) {
         return Optional.ofNullable(inMemoryDb.get(id));
     }
 
