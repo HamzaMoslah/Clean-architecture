@@ -29,6 +29,7 @@
         <module>adapter/encoder/sha256</module>
         <module>config</module>
         <module>application/manual-app</module>
+        <module>application/spring-app</module>
     </modules>
     <dependencies>
         <dependency>

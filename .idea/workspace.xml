@@ -14,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/application/manual-app/target/" />
     <ignored path="$PROJECT_DIR$/adapter/repository/inmem/target/" />
+    <ignored path="$PROJECT_DIR$/application/spring-app/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,37 +24,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/repository/inmem/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/src/main/java/module-info.java">
+        <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/config/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="287">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/pom.xml">
+        <entry file="file://$PROJECT_DIR$/adapter/repository/inmem/src/main/java/com/clean/sample/inmem/InMemoryUserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -74,7 +93,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="usecase" />
+        <entry key="$PROJECT_DIR$" value="adapter" />
       </map>
     </option>
   </component>
@@ -115,6 +134,10 @@
         <option value="$PROJECT_DIR$/adapter/repository/inmem/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/application/spring-app/pom.xml" />
+        <option value="$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/Application.java" />
+        <option value="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/config/Config.java" />
       </list>
     </option>
   </component>
@@ -155,78 +178,6 @@
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uuid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,20 +234,20 @@
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="manual-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="manual-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="manual-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -304,7 +255,7 @@
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="manual-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -313,98 +264,11 @@
               <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="manual-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manalapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="usecase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="usecase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="usecase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleanarchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleanarchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="usecase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,8 +279,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603702576214" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adapter/repository/inmem" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603707496590" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/spring-app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -433,11 +297,11 @@
       <recent name="com.clean.sample.usecase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\application\spring-app\src\main\java" />
       <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\application\manual-app\src\main\java" />
       <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\config\src\main\java" />
       <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\adapter\encoder\sha256\src\main\java" />
       <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\adapter\controller\spring-controller\src\main\java" />
-      <recent name="C:\Users\hmoslah\IdeaProjects\cleanarchitecture\adapter\id-generator\uuid\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,16 +347,18 @@
       <option name="presentableId" value="Default" />
       <updated>1603123492772</updated>
       <workItem from="1603123496846" duration="30000" />
-      <workItem from="1603123723883" duration="27367000" />
+      <workItem from="1603123723883" duration="30041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27397000" />
+    <option name="totallyTimeSpent" value="30071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -500,7 +366,9 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.31527627" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Messages" weight="0.31527627" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -511,7 +379,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30227518" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30227518" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -719,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/repository/inmem/src/main/java/com/clean/sample/inmem/InMemoryUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/manual-app/src/main/java/com/clean/sample/manalapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -796,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usecase/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -863,6 +714,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/spring-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adapter/repository/inmem/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -870,10 +735,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/module-info.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/repository/inmem/src/main/java/com/clean/sample/inmem/InMemoryUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/spring-app/src/main/java/com/clean/sample/springapp/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
